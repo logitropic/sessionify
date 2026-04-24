@@ -1,11 +1,11 @@
 {
   "name": "@logitropic/sessionify",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Convert AI assistant session history between Claude Code, Codex, and Gemini platforms",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "sessionify": "dist/index.js"
+    "sessionify": "dist/cli.js"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
