@@ -20,18 +20,17 @@ A CLI tool that converts AI assistant session history between Claude Code, Codex
 ## Installation
 
 ```bash
-npm install
-npm run build
+npm install -g @logitropic/sessionify
 ```
 
 ## Usage
 
 ```bash
 # Convert a Claude Code session to Codex
-session-history-converter ./session.ndjson --target codex
+sessionify ./session.ndjson --target codex
 
 # Convert a session and specify output directory
-session-history-converter ./input.gemini.json --target claude-code --output ./output
+sessionify ./input.gemini.json --target claude-code --output ./output
 ```
 
 ## Development
