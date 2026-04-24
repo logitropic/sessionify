@@ -1,4 +1,4 @@
-# Session History Converter
+# Sessionify
 
 A CLI tool that converts AI assistant session history between Claude Code, Codex, and Gemini platforms.
 
