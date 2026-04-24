@@ -7,6 +7,10 @@
   "bin": {
     "sessionify": "dist/index.js"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
   "directories": {
     "test": "tests"
   },
