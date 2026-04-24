@@ -46,14 +46,6 @@ sessionify
 
 Open the TUI, browse sessions, then use the platform switcher and conversion keys to work across formats.
 
-### Common CLI flow
-
-```bash
-sessionify ./session.ndjson --target codex
-sessionify ./session.json --target claude-code --output ./output
-sessionify ./session.jsonl --detect
-```
-
 ## Keybindings
 
 | Key | Action |
