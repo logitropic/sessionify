@@ -1,5 +1,5 @@
 {
-  "name": "sessionify",
+  "name": "@logitropic/sessionify",
   "version": "1.0.0",
   "description": "Convert AI assistant session history between Claude Code, Codex, and Gemini platforms",
   "type": "module",
