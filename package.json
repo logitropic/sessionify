@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "sessionify": "dist/cli.js"
+    "sessionify": "bin/sessionify.mjs"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",
