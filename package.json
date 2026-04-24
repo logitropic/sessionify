@@ -1,11 +1,11 @@
 {
-  "name": "session-history-converter",
+  "name": "sessionify",
   "version": "1.0.0",
   "description": "Convert AI assistant session history between Claude Code, Codex, and Gemini platforms",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "session-history-converter": "dist/index.js"
+    "sessionify": "dist/index.js"
   },
   "directories": {
     "test": "tests"
