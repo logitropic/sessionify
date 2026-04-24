@@ -1,11 +1,12 @@
 # Sessionify
 
-A CLI tool that converts AI assistant session history between Claude Code, Codex, and Gemini platforms.
+A terminal UI for browsing and converting AI assistant session history between Claude Code, Codex, and Gemini platforms.
 
 ## Features
 
+- Browse sessions from all platforms in a unified interface
 - Automatic format detection (NDJSON, JSONL, JSON)
-- Bidirectional conversion between all three platforms
+- Convert sessions between Claude Code, Codex, and Gemini
 - Output verification and validation
 - Preserves message structure, tool calls, and metadata
 
@@ -26,18 +27,30 @@ npm install -g @logitropic/sessionify
 ## Usage
 
 ```bash
-# Convert a Claude Code session to Codex
-sessionify ./session.ndjson --target codex
-
-# Convert a session and specify output directory
-sessionify ./input.gemini.json --target claude-code --output ./output
+sessionify
 ```
+
+### Keybindings
+
+| Key | Action |
+|-----|--------|
+| `1` / `2` / `3` | Switch between Claude Code / Codex / Gemini |
+| `f` / `Enter` | Convert selected session |
+| `Space` | Select/deselect session |
+| `Ctrl+A` | Select all sessions |
+| `Ctrl+R` | Reload sessions |
+| `h` | Toggle hidden files |
+| `,` | Open settings |
+| `Esc` | Go back / Cancel |
+| `Ctrl+C` | Quit |
 
 ## Development
 
 ```bash
+npm install
+npm run build
+npm run start   # Run the app
 npm run dev    # Watch mode
-npm run build # Build
-npm run test  # Run tests
-npm run lint  # Lint
+npm run test   # Run tests
+npm run lint   # Lint
 ```
